@@ -10,6 +10,12 @@ alt.Chart(PD).mark_bar().encode(
     y= 'Column Y'
 )
 
+# Gráfico de puntos
+alt.Chart(brain).mark_point().encode(
+    x='Brain Weight',
+    y= 'Body Weight'
+)
+
 
 # Gráfico de líneas
 
